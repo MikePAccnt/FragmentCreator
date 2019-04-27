@@ -1,6 +1,8 @@
 # Fragment Creator
 
-Tool to auto create an android Fragment class from a provided xml. Currently very simple and requires manually importing everything and setting the correct package name. Looking into making a plugin for IntelliJ that will do the same thing.
+Tool to auto create an android Fragment class from a provided xml. Currently very simple and requires manually importing everything and setting the correct package name.
+
+Releases contains a version of the jar that you can add to Android Studio as a plugin. First selection is for the destination of the class and second text box is what name you want for the class.
 
 * Only generates kotlin classes
 * Only generates variables for views with an id
